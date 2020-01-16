@@ -180,7 +180,7 @@ h1 {
     width: 887px;
     height: 724px;
     position: absolute;
-    right: 0;
+    right: -150px;
     top: 150px;
 }
 
@@ -253,10 +253,13 @@ h1 {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     max-width: 1110px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .list-company-item {
@@ -519,7 +522,7 @@ h1 {
     background-size: 100% 100%;
     background-position: 0 0;
     position: absolute;
-    left: -20px;
+    left: -204px;
     bottom: -39px;
 }
 
@@ -591,6 +594,8 @@ h1 {
 .screen {
     margin-top: 36px;
     margin-bottom: -7px;
+    width: 100%;
+    max-width: 1288px;
 }
 
 .box-price {
@@ -979,12 +984,42 @@ h1 {
 
 .contact-form input:-ms-input-placeholder, .contact-form textarea::-webkit-input-placeholder {color: #8995b3;}
 
+.social-vkontakte svg, .social-facebook svg, .social-twitter svg, .social-behance svg, .social-pinterest svg {
+    width: 15px;
+    fill: white;
+}
+
+.social-link:hover svg {
+    transition: 0.3s;
+    fill: #1085e4;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.social li {
+    margin-left: 23px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex>p>a {
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
 /*PAGE*/
 
 .page-header {
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding: 53px 0 330px 0;
     position: relative;
 }
@@ -1148,4 +1183,14 @@ h1 {
     padding: 70px 0 120px 0;
 }
 
+.footer {
+    background-color: #192b59;
+    padding: 5px 0px 0 45px;
+}
+
+/*MEDIA*/
+
+@media (max-width: 1050px) {
+    
+}
 
