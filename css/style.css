@@ -1149,7 +1149,7 @@ h1 {
 }
 
 .page-software {
-    padding: 113px 0 153px 0;
+    padding: 113px 0 153px 10px;
     position: relative;
     overflow: hidden;
 }
@@ -1159,7 +1159,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 120px 0 138px 0;
+    padding: 120px 10px 138px 10px;
 }
 
 .page-control {
@@ -1167,7 +1167,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 120px 0 140px 0;
+    padding: 120px 10px 140px 10px;
 }
 
 .page-control .title-h2 {
@@ -1267,7 +1267,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 70px 0 120px 0;
+    padding: 70px 10px 120px 10px;
 }
 
 .footer {
@@ -1453,7 +1453,7 @@ h1 {
     }
     .page-analytics {
         background-size: auto;
-        padding: 20px 0 38px 0;
+        padding: 20px 10px 38px 10px;
     }
     .flex-control>img {
         display: none;
